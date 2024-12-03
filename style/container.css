@@ -1,0 +1,89 @@
+/* whole container */
+.container{
+    border-radius: 0.83rem;
+    overflow: hidden;
+   
+}
+ 
+/* All icons in the container */
+.icon{
+    display: grid;
+    justify-content: end;
+    align-items: center;
+    height: 2.5rem;
+    overflow: hidden;
+    padding-right: 0.61rem;
+}
+.icon img{
+    margin-top: -0.5rem;
+}
+
+
+.contents{
+    padding: 1.72rem;
+    background-color: var(--dark-blue);
+    border-radius: 0.83rem;
+    height: 11.06rem;
+}
+
+
+h3{
+    font-weight: 400;
+    font-size: 1rem;
+}
+.three-dots{
+    color: var(--pale-blue);
+}
+
+.time{
+    margin-top: 1.33rem;
+    font-weight: 300;
+    font-size: 3.11rem;
+}
+
+.previous{
+    margin-top: 0.44rem;
+    font-weight: 400;
+    font-size: 0.83rem;
+    color: var(--pale-blue);
+}
+
+
+/* work container */
+.work{
+    background-color: var(--light-red-work);
+}
+
+
+
+/* play container */
+.play{
+    background-color: var(--soft-blue-play);
+}
+
+
+
+/* study container */
+.study{
+    background-color: var(--light-red-study);
+}
+
+
+ /* exercise container */
+.exercise{
+    background-color: var(--lime-green-exercise);
+}
+
+
+/* social container */
+.social{
+    background-color: var(--violet-social);
+}
+
+
+
+/* self-care container */
+.self-care{
+    background-color: var(--soft-orange-self-care);
+}
+

@@ -1,0 +1,54 @@
+/* Jeremy Robson Profile */
+.profile{
+    grid-row: span 2;
+    border-radius: 0.83rem;
+    background-color: var(--dark-blue);
+}
+
+.profile-header{
+    background-color: hsl(246, 80%, 60%);
+    padding: 1.72rem;
+    padding-bottom: 4.44rem;
+    border-radius: 0.83rem;
+}
+
+.profile-img{
+    width: 4.33rem;
+    height: 4.33rem;
+    border: 4px solid var(--white);
+    border-radius: 50%;
+}
+
+.profile-info{
+    margin-top: 2.39rem;
+}
+
+.profile-info p{
+    font-size: 0.83rem;
+    color: var(--pale-blue);
+}
+.profile-info h1{
+    font-weight: 300;
+    font-size: 2.22rem;
+}
+
+
+/* button part */
+.timeframes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    gap: 1.17rem;
+    margin-top: 1.44rem;
+    margin-left: 1.78rem;
+}
+
+.timeframes button{
+    color: hsl(234.5, 46.6%, 61.3%);
+    border: none;
+    background-color: transparent;
+    font-size: 1rem;
+    font-weight: 400;
+}
+

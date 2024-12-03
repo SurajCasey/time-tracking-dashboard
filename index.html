@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Time tracking dashboard</title>
+
+  <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+<main class="dashboard">
+  <div class="profile">
+    <div class="profile-header">
+      <img src="./images/image-jeremy.png" alt="Jeremy Robson" class="profile-img" >
+      <div class="profile-info">
+        <p>Report for</p>
+        <h1>Jeremy Robson</h1>
+      </div>
+    </div>
+    <div class="timeframes">
+      <button class="timeframes-btn" id="daily">Daily</button> 
+      <button  class="timeframes-btn" id="weekly"> Weekly</button>
+      <button class="timeframes-btn" id="monthly"> Monthly</button>
+    </div>
+  
+  </div>
+
+  <div  class="work container">
+    <div class="icon">
+      <img src="./images/icon-work.svg" alt="work image">
+    </div>
+   
+    <div class="work-contents contents">
+      <div class="header">
+        <h3>Work</h3> 
+        <p class="three-dots">...</p>
+      </div>
+      <div class="time-and-previous">
+        <p class="time">32hrs</p>
+        <p class="previous">Last Week - 36hrs</p> 
+      </div>
+    </div>
+    
+  </div>
+ 
+  <div class="play container">
+    <div class="icon">
+      <img src="./images/icon-play.svg" alt="play icon">
+    </div>
+    <div class="play-contents contents">
+      <div class="header">
+        <h3>Play</h3>
+        <p class="three-dots">...</p>
+      </div>
+     <div class="time-and-previous">
+      <p class="time">10hrs</p>
+      <p class="previous">Last Week - 8hrs</p>
+     </div>
+    </div>
+  </div>
+
+
+ <div class="study container">
+  <div class="icon">
+    <img src="./images/icon-study.svg" alt="study icon">
+  </div>
+  <div class="study-contents contents">
+    <div class="header">
+      <h3>Study</h3>
+      <p class="three-dots">...</p>
+    </div>
+    <div class="time-and-previous">
+      <p class="time">4hrs</p>
+      <p class="previous">Last Week - 7hrs</p>
+    </div>
+  </div>
+ </div>
+
+ <div class="exercise container">
+  <div class="icon">
+    <img src="./images/icon-exercise.svg" alt="exercise icon">
+  </div>
+  <div class="exercise-contents contents">
+    <div class="header">
+      <h3>Exercise</h3>
+      <p class="three-dots">...</p>
+    </div>
+    <div class="time-and-previous">
+      <p class="time">4hrs</p>
+      <p class="previous">Last Week - 5hrs</p>
+    </div>
+  </div>
+ </div>
+
+
+  <div class="social container">
+    <div class="icon">
+      <img src="./images/icon-social.svg" alt="social icon">
+    </div>
+    <div class="social-contents contents">
+      <div class="header">
+        <h3>Social</h3>
+        <p class="three-dots">...</p>
+      </div>
+      <div class="time-and-previous">
+        <p class="time">5hrs</p>
+        <p class="previous">Last Week - 10hrs</p>
+      </div>
+    </div>
+  </div>
+  
+
+  <div class="self-care container">
+    <div class="icon">
+      <img src="./images/icon-self-care.svg" alt="self care icon">
+    </div>
+    <div class="self-care-contents contents">
+      <div class="header">
+        <h3>Self Care</h3>
+        <p class="three-dots">...</p>
+      </div>
+     <div class="time-and-previous">
+        <p class="time">2hrs</p>
+        <p class="previous">Last Week - 2hrs</p>
+     </div>
+    </div>
+  </div>
+
+</main>
+  
+  
+<script src="./script.js"></script>
+
+</body>
+</html>
+
